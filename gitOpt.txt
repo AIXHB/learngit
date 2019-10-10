@@ -10,3 +10,9 @@ git reflog
 git reset HEAD file
 git reset --hard HEAD(^)
 git reset --hard 'commit.num'
+git remote add origin https:///github.com/AIXHB/learngit.git
+git push -u origin master
+git push origin master
+git clone git@github
+git remote rm origin
+git remote add origin git@github.com:your count name/your git repository.git
