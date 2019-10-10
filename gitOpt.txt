@@ -1,0 +1,12 @@
+git init
+git status
+git diff HEAD -- file
+git add file
+git rm file
+git commit -m "log"
+git checkout -- file
+git log ( --pretty==oneline)
+git reflog
+git reset HEAD file
+git reset --hard HEAD(^)
+git reset --hard 'commit.num'
