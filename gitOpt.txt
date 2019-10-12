@@ -1,6 +1,5 @@
-git init
-git status
-git diff HEAD -- file
+
+
 git add file
 git rm file
 git commit -m "log"
@@ -16,3 +15,13 @@ git push origin master
 git clone git@github
 git remote rm origin
 git remote add origin git@github.com:your count name/your git repository.git
+git branch
+git checkout -b newbranchname
+git checkout selectedbranchname
+git merge newbranchname
+git log --graph --pretty=oneline --abbrev-commit
+git branch -d newbranchname
+git tag <tag name> <commit id>
+git show <tag name>
+git tag -a v0.1 -m "version 0.1 released" <commit id>
+
